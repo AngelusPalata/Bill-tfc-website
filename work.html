@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Domaines d'intervention de BILL TFC & Mémoires." />
+    <title>Travail | BILL TFC & Mémoires</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/translations.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header class="site-header" data-role="site-header"></header>
+
+    <main class="page-shell">
+      <div class="container page-header">
+        <p class="section-kicker" data-i18n-key="work.kicker">Work</p>
+        <h1 data-i18n-key="work.pageTitle">Nos domaines d'intervention</h1>
+        <p data-i18n-key="work.intro">Voici quelques-uns des domaines dans lesquels nous avons déjà accompagné des étudiants.</p>
+      </div>
+
+      <div class="container">
+        <div class="card-grid" id="work-fields"></div>
+      </div>
+    </main>
+
+    <footer class="site-footer" data-role="site-footer"></footer>
+
+    <script>
+      const workFields = [
+        'Droit',
+        'Médecine',
+        'Économie',
+        'Gestion',
+        'Informatique',
+        'Sciences sociales'
+      ];
+
+      const fieldGrid = document.getElementById('work-fields');
+      workFields.forEach((field) => {
+        const card = document.createElement('article');
+        card.className = 'field-card';
+        card.innerHTML = `
+          <div class="field-icon" aria-hidden="true">📚</div>
+          <h3>${field}</h3>
+          <p>Exemple de sujet à confirmer plus tard.</p>
+        `;
+        fieldGrid.appendChild(card);
+      });
+    </script>
+  </body>
+</html>

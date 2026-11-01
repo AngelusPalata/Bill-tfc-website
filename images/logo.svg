@@ -1,0 +1,18 @@
+<svg width="460" height="180" viewBox="0 0 460 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="460" height="180" rx="18" fill="#0B1F4B"/>
+  <g transform="translate(25 20)">
+    <path d="M70 21L104 0L138 21L104 42L70 21Z" fill="#D4A63A"/>
+    <path d="M86 27L104 18L122 27V56H86V27Z" fill="#D4A63A"/>
+    <path d="M104 42V72" stroke="#D4A63A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M104 72L124 92H84L104 72Z" fill="#D4A63A"/>
+    <path d="M103 94C98 94 94 98 94 103V118C94 122 97 125 101 125H107C111 125 114 122 114 118V103C114 98 110 94 103 94Z" fill="#D4A63A"/>
+    <path d="M83 114C88 100 96 92 104 92C112 92 120 100 125 114" stroke="#D4A63A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M72 126C83 136 93 140 104 140C116 140 126 136 137 126" stroke="#D4A63A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M45 104C56 95 67 90 78 90C87 90 95 93 104 99V132H45V104Z" fill="#D4A63A" fill-opacity="0.18" stroke="#D4A63A" stroke-width="2"/>
+    <path d="M146 104C157 95 168 90 179 90C188 90 196 93 205 99V132H146V104Z" fill="#D4A63A" fill-opacity="0.18" stroke="#D4A63A" stroke-width="2"/>
+    <path d="M104 99C114 92 124 90 136 90C145 90 153 93 161 99V132H104V99Z" fill="#D4A63A" fill-opacity="0.12" stroke="#D4A63A" stroke-width="2"/>
+    <path d="M41 140C71 120 94 112 104 112C114 112 137 120 167 140" stroke="#D4A63A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="244" y="84" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="22" font-weight="700" fill="white">BILL TFC &amp; Mémoires</text>
+  <text x="244" y="116" text-anchor="middle" font-family="Open Sans, Arial, sans-serif" font-size="12" fill="#D4A63A" letter-spacing="0.6">L'excellence académique, notre engagement</text>
+</svg>
