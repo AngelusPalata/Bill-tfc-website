@@ -109,9 +109,7 @@ function buildFooter() {
       <div>
         <div class="footer-title" data-i18n-key="social">Réseaux sociaux</div>
         <ul class="footer-social">
-          <li><a href="https://wa.me/243997236789" aria-label="WhatsApp">WA</a></li>
-          <li><a href="#" aria-label="Facebook">f</a></li>
-          <li><a href="https://www.instagram.com/angelus.palata/" target="_blank" rel="noopener" aria-label="Instagram">◎</a></li>
+          <li><a href="#" aria-label="WhatsApp">WA</a></li>
         </ul>
       </div>
     </div>
