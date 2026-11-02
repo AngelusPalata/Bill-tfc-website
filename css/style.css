@@ -244,40 +244,20 @@ p {
 }
 
 .footer-links,
-.footer-contact,
-.footer-social {
+.footer-contact {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .footer-links li,
-.footer-contact li,
-.footer-social li {
+.footer-contact li {
   margin-bottom: 0.7rem;
 }
 
 .footer-contact a,
-.footer-social a,
 .footer-links a {
   color: var(--white);
-}
-
-.footer-social {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.footer-social a {
-  width: 42px;
-  height: 42px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.03);
 }
 
 .footer-bottom {
@@ -292,11 +272,6 @@ p {
 .designer-credit {
   margin-top: 0.6rem;
   color: var(--text-soft);
-}
-
-.designer-credit a {
-  color: var(--gold);
-  font-weight: 700;
 }
 
 .hero {

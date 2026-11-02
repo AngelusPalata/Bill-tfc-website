@@ -106,18 +106,12 @@ function buildFooter() {
         </ul>
       </div>
 
-      <div>
-        <div class="footer-title" data-i18n-key="social">Réseaux sociaux</div>
-        <ul class="footer-social">
-          <li><a href="#" aria-label="WhatsApp">WA</a></li>
-        </ul>
-      </div>
     </div>
 
     <div class="container footer-bottom">
       <div data-i18n-key="availabilityText">Disponible 24h/24, 7j/7 – à vos côtés, à chaque étape.</div>
       <div class="copyright-line" data-i18n-key="copyright">© BILL TFC &amp; Mémoires</div>
-      <div class="designer-credit"><span data-i18n-key="builtByText">Built by</span> <a href="https://www.instagram.com/angelus.palata/" target="_blank" rel="noopener">Angelus</a></div>
+      <div class="designer-credit"><span data-i18n-key="builtByText">Built by</span> Angelus</div>
     </div>
   `;
 }
